@@ -3,7 +3,7 @@ spring:
     url: jdbc:h2:mem:testdb  #이 정보를 통해 jpa에서 자동으로 db를 생성한다.
     driver-class-name: org.h2.Driver
     username: sa
-    password: '{cipher}34ef43f52ce9dd3e6e5facbd58e10889fee0567dde236a84e446c1133990fd87'
+    password: '34ef43f52ce9dd3e6e5facbd58e10889fee0567dde236a84e446c1133990fd87'
 
 token:
   expiration_time: 86400000
